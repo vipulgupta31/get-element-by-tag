@@ -35,7 +35,9 @@ This is the list of tools, being used in this framework:
 3. TestNG Framework
 4. Selenium WebDrvier
 
-## Steps for Local Execution
+## Steps for Execution on LambdaTest Cloud Platform
 1. Import this project in Eclipse/IntelliJ as an “Existing Maven Project”
-2. Execute any one of the testng.xml as per your requirement.
-3. You can see the logs coming up on Console as your execution progresses.
+2. Update your LambdaTest account username and accessKey in BaseTest.java. You can find these in the Profile section. 
+3. Execute any one of the test cases by right-clicking and selecting the Run as the TestNG option.
+4. You can see the logs coming on Console as your execution progresses.
+5. log in to your LambdaTest dashboard to see the detailed execution results for the executed test case.
