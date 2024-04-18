@@ -12,7 +12,7 @@ public class BaseTest {
 	public RemoteWebDriver driver = null;
 
 	String username = System.getenv("LT_USERNAME") == null ? "<lambdatest_username>" : System.getenv("LT_USERNAME");
-	String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "<lambdatest_accesskey>" : System.getenv("LT_ACCESS");
+	String accessKey = System.getenv("LT_ACCESS_KEY") == null ? "<lambdatest_accesskey>" : System.getenv("LT_ACCESS_KEY");
 
 	String status = "failed";
 
@@ -20,7 +20,7 @@ public class BaseTest {
 	public void setup() {
 		try {
 			ChromeOptions chromeOptions = new ChromeOptions();
-			chromeOptions.setPlatformName("Windows 10");
+			chromeOptions.setPlatformName("Windows 11");
 			chromeOptions.setBrowserVersion("124.0");
 
 			HashMap<String, Object> ltOptions = new HashMap<String, Object>();
