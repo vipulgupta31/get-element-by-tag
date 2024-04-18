@@ -23,8 +23,7 @@ public class TestFindAllElementByTagName extends BaseTest {
 		System.out.println("Total number of elements with tag h4 : " + elements.size());
 		
 		// print the value of each web element one by one
-		//printing first 5 element values for ease of understanding.
-		for (int i = 0; i < 5; i++) 
+		for (int i = 0; i < elements.size(); i++)
 		{
 			WebElement element = elements.get(i);
 			System.out.println(i + " : " + element.getText());
